@@ -64,8 +64,7 @@ function respond() {
   } 
   else if(request.text == ">With award winning actor Sergio Marchionne") {
     this.res.writeHead(200);
-    postMessage("Ha ha, cool guy, we meet again. I see you're still beeping and booping since our last meeting. And what's this I have in my hand...oh it's your voice box! I kept it just in case you ever came back. Now that you're here, I don't need it any more *throws into shark tank*
-");
+    postMessage("Ha ha, cool guy, we meet again. I see you're still beeping and booping since our last meeting. And what's this I have in my hand...oh it's your voice box! I kept it just in case you ever came back. Now that you're here, I don't need it any more *throws into shark tank*");
     this.res.end();
   }
   else if(request.text && botRegex.test(request.text)) {
